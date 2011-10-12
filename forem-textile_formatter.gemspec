@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Forem::TextileFormatter::VERSION
   s.authors     = ["Nicholas Rutherford"]
   s.email       = ["nick.rutherford@gmail.com"]
-  s.homepage    = "https://github.com/nruth/Forem-Textile-Formatterg"
+  s.homepage    = "https://github.com/nruth/forem-textile_formatter"
   s.summary     = %q{Textile formatting for forem posts}
   s.description = %q{Replaces the forem Rails engine's default formatting with Textile}
 
