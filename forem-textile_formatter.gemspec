@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Nicholas Rutherford"]
   s.email       = ["nick.rutherford@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Textile formatting for forem posts}
+  s.description = %q{Replaces the forem Rails engine's default formatting with Textile}
 
   s.rubyforge_project = "forem-textile_formatter"
 
@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  s.add_development_dependency "rspec"
+  s.add_runtime_dependency "RedCloth"
 end
