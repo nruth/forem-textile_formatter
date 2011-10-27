@@ -1,10 +1,4 @@
 require "forem-textile_formatter/version"
-require 'RedCloth'
+require 'forem/formatters/redcloth'
 
-module Forem
-  module FormattingHelper
-    def as_formatted_html(text)
-      ::RedCloth.new(text).to_html.html_safe
-    end
-  end
-end
+Forem.formatter = Forem::Formatters::RedCloth
