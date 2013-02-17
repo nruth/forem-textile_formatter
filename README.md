@@ -1,9 +1,3 @@
 # Forem - Textile Formatter #
 
-Plugin gem enabling [Textile](http://redcloth.org/textile) formatting in [Forem](https://github.com/radar/forem) posts, and wherever else forem_format is used.
-
-## Installation ##
-
-add to your Bundler Gemfile:
-
-    gem 'forem-textile_formatter'
+This repository is no longer maintained. Please see [this fork](https://github.com/radar/forem-textile_formatter) or [the Forem wiki](https://github.com/radar/forem/wiki/Formatters) for other options.
